@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5d2a1ee-a328-448a-b65a-293f07c60a91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/Main.java" afterDir="false" />
+    <list default="true" id="f5d2a1ee-a328-448a-b65a-293f07c60a91" name="Default Changelist" comment="creating">
+      <change afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/HtmlPage/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/libs/jsoup-1.14.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/UniquenessWordsOnWebPage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/UniquenessWordsOnWebPage.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/out/production/UniquenessWordsOnWebPage/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/out/production/UniquenessWordsOnWebPage/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +24,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../UniquenessWordsOnWebPage" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1xz4xIRlRPRtZXH7IiWdhaOvYzj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -29,18 +41,32 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../UniquenessWordsOnWebPage" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/libs/jsoup-1.14.2.jar" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\IDEA Projects\UniquenessWordsOnWebPage\src" />
+      <recent name="G:\IDEA Projects\UniquenessWordsOnWebPage\src\HtmlPage" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\IDEA Projects\UniquenessWordsOnWebPage\src\libs" />
+      <recent name="G:\IDEA Projects\UniquenessWordsOnWebPage\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="UniquenessWordsOnWebPage" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="jsoup-1.14.2.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/jsoup-1.14.2.jar" />
+      <method v="2" />
     </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="UniquenessWordsOnWebPage" />
@@ -92,6 +118,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JAR Application.jsoup-1.14.2.jar" />
       </list>
     </recent_temporary>
   </component>
@@ -104,6 +131,25 @@
       <option name="presentableId" value="Default" />
       <updated>1631344844452</updated>
     </task>
+    <task id="LOCAL-00001" summary="creating">
+      <created>1631345242310</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1631345242310</updated>
+    </task>
+    <task id="LOCAL-00002" summary="creating">
+      <created>1631345255865</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1631345255865</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="creating" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating" />
   </component>
 </project>
