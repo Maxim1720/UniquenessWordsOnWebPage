@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class Main {
 
-
     public static void main(String[] args) {
         printPageToConsoleWithoutTags();
     }
@@ -18,6 +17,8 @@ public class Main {
         for (String s: page.uniqueWords()) {
             System.out.println(s + " - " + page.countedUniqueWords().get(s.toLowerCase()));
         }
+        System.out.println(page.uniqueWords().size());
+        page.download("G:\\WorkingDr\\page.html");
     }
 
 

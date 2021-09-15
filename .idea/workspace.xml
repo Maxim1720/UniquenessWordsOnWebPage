@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5d2a1ee-a328-448a-b65a-293f07c60a91" name="Default Changelist" comment="загрузка функциональщины">
+      <change afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/HtmlPage/Tests/HtmlPageTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/HtmlPage/TextSplitter/TextSplitter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/HtmlPage/TextSplitter/TextSplitterTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/UniquenessWordsOnWebPage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/UniquenessWordsOnWebPage.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/out/production/UniquenessWordsOnWebPage/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/out/production/UniquenessWordsOnWebPage/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/HtmlPage/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/HtmlPage/HtmlPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/HtmlPage/HtmlPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/HtmlPage/HtmlPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +41,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/libs/jsoup-1.14.2.jar" />
@@ -54,9 +62,36 @@
       <recent name="G:\IDEA Projects\UniquenessWordsOnWebPage\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Run program">
+    <configuration name="HtmlPageTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HtmlPage.Tests.HtmlPageTester" />
+      <module name="UniquenessWordsOnWebPage" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run program" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="UniquenessWordsOnWebPage" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextSplitterTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HtmlPage.TextSplitter.TextSplitterTester" />
+      <module name="UniquenessWordsOnWebPage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HtmlPage.TextSplitter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="textSplitterTester" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="HtmlPage.TextSplitter.TextSplitterTester" />
       <module name="UniquenessWordsOnWebPage" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -66,9 +101,17 @@
       <option name="JAR_PATH" value="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/jsoup-1.14.2.jar" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Application.Run program" />
+      <item itemvalue="Application.textSplitterTester" />
+      <item itemvalue="Application.HtmlPageTester" />
+      <item itemvalue="Application.TextSplitterTester" />
+      <item itemvalue="JAR Application.jsoup-1.14.2.jar" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.HtmlPageTester" />
+        <item itemvalue="Application.TextSplitterTester" />
         <item itemvalue="JAR Application.jsoup-1.14.2.jar" />
       </list>
     </recent_temporary>
@@ -110,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631559703185</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="implementation in oop">
+      <created>1631644488761</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1631644488761</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,6 +177,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="creating" />
     <MESSAGE value="загрузка функциональщины" />
-    <option name="LAST_COMMIT_MESSAGE" value="загрузка функциональщины" />
+    <MESSAGE value="implementation in oop" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementation in oop" />
   </component>
 </project>
