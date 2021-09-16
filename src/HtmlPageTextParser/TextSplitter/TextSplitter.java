@@ -1,6 +1,6 @@
-package HtmlPage.TextSplitter;
+package HtmlPageTextParser.TextSplitter;
 
-import HtmlPage.HtmlPage;
+import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;
 import java.util.regex.Matcher;
@@ -11,28 +11,31 @@ public class TextSplitter {
     Pattern corrWordsRep;
     Matcher textMatcher;
 
-    public TextSplitter(String text)
+    public TextSplitter(@NotNull String text)
     {
         corrWordsRep = Pattern.compile(
                 "(\\p{javaUpperCase}+\\p{Ll}*)" +
                 "|(\\p{javaLowerCase}+)" +
+                        "|(\\p{javaLetter}+)"+
                 "|(\\p{javaDigit}+)");
+
+        corrWordsRep = Pattern.compile(
+                        "(\\p{javaLetter}+)"+
+                        "|(\\p{javaDigit}+)");
+
         textMatcher = corrWordsRep.matcher(text);
     }
 
-    public String[] getWords()
+    public String[] split()
     {
-        ArrayList<String> words1 = new ArrayList<>();
-
+        ArrayList<String> tempStrs = new ArrayList<>();
         while (textMatcher.find())
         {
-            words1.add(textMatcher.group());
+            tempStrs.add(textMatcher.group());
         }
-
-        String[] words = new String[words1.size()];
-
+        String[] words = new String[tempStrs.size()];
         int i=0;
-        for (String s:words1
+        for (String s:tempStrs
              ) {
             words[i++] = s;
         }

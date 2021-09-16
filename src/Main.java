@@ -1,4 +1,4 @@
-import HtmlPage.HtmlPage;
+import HtmlPageTextParser.HtmlTextParser;
 
 import java.util.Scanner;
 
@@ -13,12 +13,11 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         String address = scanner.next();
 
-        HtmlPage page = new HtmlPage(address);
-        for (String s: page.uniqueWords()) {
-            System.out.println(s + " - " + page.countedUniqueWords().get(s.toLowerCase()));
+        HtmlTextParser page = new HtmlTextParser(address);
+        for (String s: page.inOneCopyWords()) {
+            System.out.println(s + ": " + page.wordMatchCount(s));
         }
-        System.out.println(page.uniqueWords().size());
-        page.download("G:\\WorkingDr\\page.html");
+        System.out.println(page.inOneCopyWords().length);
     }
 
 

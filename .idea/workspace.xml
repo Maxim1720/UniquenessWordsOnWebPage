@@ -2,13 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5d2a1ee-a328-448a-b65a-293f07c60a91" name="Default Changelist" comment="загрузка функциональщины">
-      <change afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/HtmlPage/Tests/HtmlPageTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/HtmlPage/TextSplitter/TextSplitter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/HtmlPage/TextSplitter/TextSplitterTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/HtmlPageTextParser/Connector/Connector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/HtmlPageTextParser/Connector/ConnectorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/HtmlPageTextParser/HtmlTextParserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/HtmlPageTextParser/TextSplitter/TextSplitterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/HtmlPageTextParser/WordsParser/WordsParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/HtmlPageTextParser/WordsParser/WordsParserTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/UniquenessWordsOnWebPage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/UniquenessWordsOnWebPage.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/out/production/UniquenessWordsOnWebPage/HtmlPage/HtmlPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/out/production/UniquenessWordsOnWebPage/HtmlPage/Tests/HtmlPageTester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/out/production/UniquenessWordsOnWebPage/HtmlPage/TextSplitter/TextSplitter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/out/production/UniquenessWordsOnWebPage/HtmlPage/TextSplitter/TextSplitterTester.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/out/production/UniquenessWordsOnWebPage/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/out/production/UniquenessWordsOnWebPage/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/HtmlPage/HtmlPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/HtmlPage/HtmlPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/HtmlPage/HtmlPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/HtmlPageTextParser/HtmlTextParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/HtmlPage/Tests/HtmlPageTester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/HtmlPage/TextSplitter/TextSplitter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/HtmlPageTextParser/TextSplitter/TextSplitter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/HtmlPage/TextSplitter/TextSplitterTester.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +30,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -47,7 +58,10 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/libs/jsoup-1.14.2.jar" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -61,15 +75,17 @@
       <recent name="G:\IDEA Projects\UniquenessWordsOnWebPage\src\libs" />
       <recent name="G:\IDEA Projects\UniquenessWordsOnWebPage\src" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="HtmlPage" />
+      <recent name="HtmlPage.TextSplitter" />
+      <recent name="HtmlPage.TextParser" />
+      <recent name="HtmlPage.Connector" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Run program">
-    <configuration name="HtmlPageTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HtmlPage.Tests.HtmlPageTester" />
-      <module name="UniquenessWordsOnWebPage" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.All Tests">
     <configuration name="Run program" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="UniquenessWordsOnWebPage" />
@@ -77,42 +93,103 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextSplitterTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HtmlPage.TextSplitter.TextSplitterTester" />
+    <configuration name="All Tests" type="JUnit" factoryName="JUnit">
+      <module name="UniquenessWordsOnWebPage" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HtmlTextParserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UniquenessWordsOnWebPage" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HtmlPage.TextSplitter.*" />
+          <option name="PATTERN" value="HtmlPageTextParser.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="HtmlPageTextParser" />
+      <option name="MAIN_CLASS_NAME" value="HtmlPageTextParser.HtmlTextParserTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="textSplitterTester" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="HtmlPage.TextSplitter.TextSplitterTester" />
+    <configuration name="HtmlTextParserTest.allTextSteam" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UniquenessWordsOnWebPage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HtmlPageTextParser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="HtmlPageTextParser" />
+      <option name="MAIN_CLASS_NAME" value="HtmlPageTextParser.HtmlTextParserTest" />
+      <option name="METHOD_NAME" value="allTextSteam" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="jsoup-1.14.2.jar" type="JarApplication" temporary="true">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/jsoup-1.14.2.jar" />
-      <method v="2" />
+    <configuration name="HtmlTextParserTest.wordMatchCountGoogle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UniquenessWordsOnWebPage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HtmlPageTextParser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="HtmlPageTextParser" />
+      <option name="MAIN_CLASS_NAME" value="HtmlPageTextParser.HtmlTextParserTest" />
+      <option name="METHOD_NAME" value="wordMatchCountGoogle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="UniquenessWordsOnWebPage" />
+      <option name="PACKAGE_NAME" value="HtmlPageTextParser" />
+      <option name="MAIN_CLASS_NAME" value="HtmlPageTextParser.HtmlTextParserTest" />
+      <option name="METHOD_NAME" value="inOneCopyWordsSimbirSoft" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordsParserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UniquenessWordsOnWebPage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HtmlPageTextParser.WordsParser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="HtmlPageTextParser.WordsParser" />
+      <option name="MAIN_CLASS_NAME" value="HtmlPageTextParser.WordsParser.WordsParserTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
       <item itemvalue="Application.Run program" />
-      <item itemvalue="Application.textSplitterTester" />
-      <item itemvalue="Application.HtmlPageTester" />
-      <item itemvalue="Application.TextSplitterTester" />
-      <item itemvalue="JAR Application.jsoup-1.14.2.jar" />
+      <item itemvalue="JUnit.All Tests" />
+      <item itemvalue="JUnit.Unnamed" />
+      <item itemvalue="JUnit.HtmlTextParserTest.allTextSteam" />
+      <item itemvalue="JUnit.HtmlTextParserTest.wordMatchCountGoogle" />
+      <item itemvalue="JUnit.WordsParserTest" />
+      <item itemvalue="JUnit.HtmlTextParserTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HtmlPageTester" />
-        <item itemvalue="Application.TextSplitterTester" />
-        <item itemvalue="JAR Application.jsoup-1.14.2.jar" />
+        <item itemvalue="JUnit.HtmlTextParserTest" />
+        <item itemvalue="JUnit.WordsParserTest" />
+        <item itemvalue="JUnit.HtmlTextParserTest.wordMatchCountGoogle" />
+        <item itemvalue="JUnit.HtmlTextParserTest.allTextSteam" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +237,21 @@
       <option name="project" value="LOCAL" />
       <updated>1631644488761</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="implementation in oop">
+      <created>1631743051943</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1631743051943</updated>
+    </task>
+    <task id="LOCAL-00007" summary="1. word processing in a separate class.&#10;2. added tests.">
+      <created>1631743223700</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1631743223700</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -173,11 +264,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="creating" />
     <MESSAGE value="загрузка функциональщины" />
     <MESSAGE value="implementation in oop" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementation in oop" />
+    <MESSAGE value="1. word processing in a separate class.&#10;2. added tests." />
+    <option name="LAST_COMMIT_MESSAGE" value="1. word processing in a separate class.&#10;2. added tests." />
   </component>
 </project>
