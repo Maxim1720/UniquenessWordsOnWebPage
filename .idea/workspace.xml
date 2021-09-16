@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5d2a1ee-a328-448a-b65a-293f07c60a91" name="Default Changelist" comment="adding correct test, Connector, Const Addresses, WordsParser.&#10;adherence to the principle of sole responsibility.">
-      <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/HtmlPageTextParser/Connector/Connector.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/HtmlPageTextParser/Connector/Connector.java" afterDir="false" />
+    <list default="true" id="f5d2a1ee-a328-448a-b65a-293f07c60a91" name="Default Changelist" comment="HtmlTextParserTest testing null of address">
+      <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/UniquenessWordsOnWebPage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/UniqOfWebPage.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,9 +49,10 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -68,16 +73,16 @@
       <recent name="HtmlPage.Connector" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ConnectorTest.connect">
+  <component name="RunManager" selected="JUnit.HtmlTextParserTest">
     <configuration name="Run program" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="UniquenessWordsOnWebPage" />
+      <module name="UniqOfWebPage" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="All Tests" type="JUnit" factoryName="JUnit">
-      <module name="UniquenessWordsOnWebPage" />
+      <module name="UniqOfWebPage" />
       <option name="MAIN_CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="directory" />
@@ -87,7 +92,7 @@
       </method>
     </configuration>
     <configuration name="ConnectorTest.connect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UniquenessWordsOnWebPage" />
+      <module name="UniqOfWebPage" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="HtmlPageTextParser.Connector.*" />
@@ -103,7 +108,7 @@
       </method>
     </configuration>
     <configuration name="HtmlTextParserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UniquenessWordsOnWebPage" />
+      <module name="UniqOfWebPage" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="HtmlPageTextParser.*" />
@@ -118,7 +123,7 @@
       </method>
     </configuration>
     <configuration name="HtmlTextParserTest.allTextSteam" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UniquenessWordsOnWebPage" />
+      <module name="UniqOfWebPage" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="HtmlPageTextParser.*" />
@@ -134,7 +139,7 @@
       </method>
     </configuration>
     <configuration name="HtmlTextParserTest.wordMatchCountGoogle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UniquenessWordsOnWebPage" />
+      <module name="UniqOfWebPage" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="HtmlPageTextParser.*" />
@@ -150,7 +155,7 @@
       </method>
     </configuration>
     <configuration name="Unnamed" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
-      <module name="UniquenessWordsOnWebPage" />
+      <module name="UniqOfWebPage" />
       <option name="PACKAGE_NAME" value="HtmlPageTextParser" />
       <option name="MAIN_CLASS_NAME" value="HtmlPageTextParser.HtmlTextParserTest" />
       <option name="METHOD_NAME" value="inOneCopyWordsSimbirSoft" />
@@ -160,7 +165,7 @@
       </method>
     </configuration>
     <configuration name="WordsParserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UniquenessWordsOnWebPage" />
+      <module name="UniqOfWebPage" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="HtmlPageTextParser.WordsParser.*" />
@@ -170,6 +175,53 @@
       <option name="PACKAGE_NAME" value="HtmlPageTextParser.WordsParser" />
       <option name="MAIN_CLASS_NAME" value="HtmlPageTextParser.WordsParser.WordsParserTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="UniqOfWebPage" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="UniqOfWebPage" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -186,8 +238,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ConnectorTest.connect" />
         <item itemvalue="JUnit.HtmlTextParserTest" />
+        <item itemvalue="JUnit.ConnectorTest.connect" />
         <item itemvalue="JUnit.WordsParserTest" />
         <item itemvalue="JUnit.HtmlTextParserTest.wordMatchCountGoogle" />
         <item itemvalue="JUnit.HtmlTextParserTest.allTextSteam" />
@@ -259,7 +311,28 @@
       <option name="project" value="LOCAL" />
       <updated>1631830071323</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ConnectorTest adding test cases">
+      <created>1631830505101</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1631830505101</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Connector должен принимать NotNull адресс">
+      <created>1631831102214</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1631831102214</updated>
+    </task>
+    <task id="LOCAL-00011" summary="HtmlTextParserTest testing null of address">
+      <created>1631831130893</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1631831130893</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -280,6 +353,9 @@
     <MESSAGE value="implementation in oop" />
     <MESSAGE value="1. word processing in a separate class.&#10;2. added tests." />
     <MESSAGE value="adding correct test, Connector, Const Addresses, WordsParser.&#10;adherence to the principle of sole responsibility." />
-    <option name="LAST_COMMIT_MESSAGE" value="adding correct test, Connector, Const Addresses, WordsParser.&#10;adherence to the principle of sole responsibility." />
+    <MESSAGE value="ConnectorTest adding test cases" />
+    <MESSAGE value="Connector должен принимать NotNull адресс" />
+    <MESSAGE value="HtmlTextParserTest testing null of address" />
+    <option name="LAST_COMMIT_MESSAGE" value="HtmlTextParserTest testing null of address" />
   </component>
 </project>
