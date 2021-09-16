@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5d2a1ee-a328-448a-b65a-293f07c60a91" name="Default Changelist" comment="HtmlTextParserTest testing null of address">
-      <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/UniquenessWordsOnWebPage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/UniqOfWebPage.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/Main.java" afterDir="false" />
+    <list default="true" id="f5d2a1ee-a328-448a-b65a-293f07c60a91" name="Default Changelist" comment="adding prompt string.">
+      <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/HtmlPageTextParser/HtmlTextParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/HtmlPageTextParser/HtmlTextParser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -332,7 +328,21 @@
       <option name="project" value="LOCAL" />
       <updated>1631831130893</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="adding prompt string.">
+      <created>1631831178547</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1631831178547</updated>
+    </task>
+    <task id="LOCAL-00013" summary="adding prompt string.">
+      <created>1631831190692</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1631831190692</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -356,6 +366,7 @@
     <MESSAGE value="ConnectorTest adding test cases" />
     <MESSAGE value="Connector должен принимать NotNull адресс" />
     <MESSAGE value="HtmlTextParserTest testing null of address" />
-    <option name="LAST_COMMIT_MESSAGE" value="HtmlTextParserTest testing null of address" />
+    <MESSAGE value="adding prompt string." />
+    <option name="LAST_COMMIT_MESSAGE" value="adding prompt string." />
   </component>
 </project>

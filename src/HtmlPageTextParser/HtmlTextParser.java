@@ -3,6 +3,7 @@ package HtmlPageTextParser;
 import HtmlPageTextParser.Connector.Connector;
 import HtmlPageTextParser.WordsParser.WordsParser;
 import HtmlPageTextParser.TextSplitter.TextSplitter;
+import org.jetbrains.annotations.NotNull;
 import org.jsoup.nodes.Document;
 
 import java.util.ArrayList;
@@ -18,7 +19,7 @@ public class HtmlTextParser {
 
     TextSplitter textSplitter;
 
-    public HtmlTextParser(String address)
+    public HtmlTextParser(@NotNull String address)
     {
         doc = new Connector(address).connect();
     }
