@@ -1,25 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5d2a1ee-a328-448a-b65a-293f07c60a91" name="Default Changelist" comment="загрузка функциональщины">
-      <change afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/HtmlPageTextParser/Connector/Connector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/HtmlPageTextParser/Connector/ConnectorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/HtmlPageTextParser/HtmlTextParserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/HtmlPageTextParser/TextSplitter/TextSplitterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/HtmlPageTextParser/WordsParser/WordsParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/HtmlPageTextParser/WordsParser/WordsParserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/UniquenessWordsOnWebPage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/UniquenessWordsOnWebPage.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/out/production/UniquenessWordsOnWebPage/HtmlPage/HtmlPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/out/production/UniquenessWordsOnWebPage/HtmlPage/Tests/HtmlPageTester.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/out/production/UniquenessWordsOnWebPage/HtmlPage/TextSplitter/TextSplitter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/out/production/UniquenessWordsOnWebPage/HtmlPage/TextSplitter/TextSplitterTester.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/out/production/UniquenessWordsOnWebPage/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/out/production/UniquenessWordsOnWebPage/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/HtmlPage/HtmlPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/HtmlPageTextParser/HtmlTextParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/HtmlPage/Tests/HtmlPageTester.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/HtmlPage/TextSplitter/TextSplitter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/HtmlPageTextParser/TextSplitter/TextSplitter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/HtmlPage/TextSplitter/TextSplitterTester.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/Main.java" afterDir="false" />
+    <list default="true" id="f5d2a1ee-a328-448a-b65a-293f07c60a91" name="Default Changelist" comment="adding correct test, Connector, Const Addresses, WordsParser.&#10;adherence to the principle of sole responsibility.">
+      <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/HtmlPageTextParser/Connector/Connector.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/HtmlPageTextParser/Connector/Connector.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +68,7 @@
       <recent name="HtmlPage.Connector" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All Tests">
+  <component name="RunManager" selected="JUnit.ConnectorTest.connect">
     <configuration name="Run program" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="UniquenessWordsOnWebPage" />
@@ -99,6 +82,22 @@
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="directory" />
       <dir value="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConnectorTest.connect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UniquenessWordsOnWebPage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HtmlPageTextParser.Connector.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="HtmlPageTextParser.Connector" />
+      <option name="MAIN_CLASS_NAME" value="HtmlPageTextParser.Connector.ConnectorTest" />
+      <option name="METHOD_NAME" value="connect" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -183,9 +182,11 @@
       <item itemvalue="JUnit.HtmlTextParserTest.wordMatchCountGoogle" />
       <item itemvalue="JUnit.WordsParserTest" />
       <item itemvalue="JUnit.HtmlTextParserTest" />
+      <item itemvalue="JUnit.ConnectorTest.connect" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ConnectorTest.connect" />
         <item itemvalue="JUnit.HtmlTextParserTest" />
         <item itemvalue="JUnit.WordsParserTest" />
         <item itemvalue="JUnit.HtmlTextParserTest.wordMatchCountGoogle" />
@@ -251,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631743223700</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="adding correct test, Connector, Const Addresses, WordsParser.&#10;adherence to the principle of sole responsibility.">
+      <created>1631830071323</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1631830071323</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -271,6 +279,7 @@
     <MESSAGE value="загрузка функциональщины" />
     <MESSAGE value="implementation in oop" />
     <MESSAGE value="1. word processing in a separate class.&#10;2. added tests." />
-    <option name="LAST_COMMIT_MESSAGE" value="1. word processing in a separate class.&#10;2. added tests." />
+    <MESSAGE value="adding correct test, Connector, Const Addresses, WordsParser.&#10;adherence to the principle of sole responsibility." />
+    <option name="LAST_COMMIT_MESSAGE" value="adding correct test, Connector, Const Addresses, WordsParser.&#10;adherence to the principle of sole responsibility." />
   </component>
 </project>

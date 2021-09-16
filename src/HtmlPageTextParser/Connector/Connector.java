@@ -21,7 +21,7 @@ public class Connector {
         }
         catch (IOException e) {
             System.out.println("SIMPLE CONNECTING: FAILED");
-            connectWithReferrer();
+            connectWithErrorsIgnoring();
         }
         return doc;
     }
@@ -31,17 +31,16 @@ public class Connector {
 
     }
 
-    private void connectWithReferrer()
+    private void connectWithErrorsIgnoring()
     {
         try {
-            tryConnectWithReferrer();
+            tryConnectWithErrorsIgnoring();
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
-    private void tryConnectWithReferrer() throws IOException {
-        //doc = Jsoup.connect(address).referrer("http://www.google.com").get();
+    private void tryConnectWithErrorsIgnoring() throws IOException {
         doc = Jsoup.connect(address).ignoreHttpErrors(true).get();
     }
 }
