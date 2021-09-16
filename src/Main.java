@@ -10,6 +10,8 @@ public class Main {
 
     private static void printPageToConsoleWithoutTags()
     {
+        System.out.println("Please enter the page address: ");
+
         Scanner scanner = new Scanner(System.in);
         String address = scanner.next();
 
