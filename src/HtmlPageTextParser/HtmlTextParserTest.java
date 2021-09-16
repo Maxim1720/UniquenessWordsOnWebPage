@@ -8,6 +8,13 @@ import org.junit.jupiter.api.function.Executable;
 class HtmlTextParserTest {
 
     @Test
+    void addressIsNull()
+    {
+        new HtmlTextParser(null);
+    }
+
+
+    @Test
     void allTextGoogle() {
         HtmlTextParser page = new HtmlTextParser(Addresses.googleAddress);
         Assertions.assertDoesNotThrow((Executable) page::allText);
