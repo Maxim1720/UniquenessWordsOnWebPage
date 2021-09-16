@@ -1,5 +1,6 @@
 package HtmlPageTextParser.Connector;
 
+import org.jetbrains.annotations.NotNull;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
@@ -9,7 +10,7 @@ public class Connector {
     private Document doc;
     private final String address;
 
-    public Connector(String address)
+    public Connector(@NotNull String address)
     {
         this.address = address;
     }
