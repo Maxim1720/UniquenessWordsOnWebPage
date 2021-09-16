@@ -8,9 +8,9 @@ import org.junit.jupiter.api.function.Executable;
 class HtmlTextParserTest {
 
     @Test
-    void addressIsNull()
+    void emptyAddress()
     {
-        new HtmlTextParser(null);
+        new HtmlTextParser("");
     }
 
 
