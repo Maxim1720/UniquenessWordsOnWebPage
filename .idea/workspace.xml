@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5d2a1ee-a328-448a-b65a-293f07c60a91" name="Default Changelist" comment="adding prompt string.">
+    <list default="true" id="f5d2a1ee-a328-448a-b65a-293f07c60a91" name="Default Changelist" comment="adding test case for checking empty of address.">
+      <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/HtmlPageTextParser/Connector/Connector.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/HtmlPageTextParser/Connector/Connector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/HtmlPageTextParser/Connector/ConnectorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/HtmlPageTextParser/Connector/ConnectorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/HtmlPageTextParser/HtmlTextParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/HtmlPageTextParser/HtmlTextParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/HtmlPageTextParser/HtmlTextParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/HtmlPageTextParser/HtmlTextParserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UniquenessWordsOnWebPage/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +74,7 @@
       <recent name="HtmlPage.Connector" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HtmlTextParserTest">
+  <component name="RunManager" selected="Application.Run program">
     <configuration name="Run program" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="UniqOfWebPage" />
@@ -87,7 +92,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConnectorTest.connect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConnectorTest.incorrectHost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UniqOfWebPage" />
       <extension name="coverage">
         <pattern>
@@ -97,13 +102,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="HtmlPageTextParser.Connector" />
       <option name="MAIN_CLASS_NAME" value="HtmlPageTextParser.Connector.ConnectorTest" />
-      <option name="METHOD_NAME" value="connect" />
+      <option name="METHOD_NAME" value="incorrectHost" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HtmlTextParserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HtmlTextParserTest.incorrecEnd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UniqOfWebPage" />
       <extension name="coverage">
         <pattern>
@@ -113,12 +118,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="HtmlPageTextParser" />
       <option name="MAIN_CLASS_NAME" value="HtmlPageTextParser.HtmlTextParserTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="incorrecEnd" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HtmlTextParserTest.allTextSteam" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HtmlTextParserTest.incorrectDomain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UniqOfWebPage" />
       <extension name="coverage">
         <pattern>
@@ -128,13 +134,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="HtmlPageTextParser" />
       <option name="MAIN_CLASS_NAME" value="HtmlPageTextParser.HtmlTextParserTest" />
-      <option name="METHOD_NAME" value="allTextSteam" />
+      <option name="METHOD_NAME" value="incorrectDomain" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HtmlTextParserTest.wordMatchCountGoogle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HtmlTextParserTest.incorrectPath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UniqOfWebPage" />
       <extension name="coverage">
         <pattern>
@@ -144,80 +150,24 @@
       </extension>
       <option name="PACKAGE_NAME" value="HtmlPageTextParser" />
       <option name="MAIN_CLASS_NAME" value="HtmlPageTextParser.HtmlTextParserTest" />
-      <option name="METHOD_NAME" value="wordMatchCountGoogle" />
+      <option name="METHOD_NAME" value="incorrectPath" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Unnamed" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
-      <module name="UniqOfWebPage" />
-      <option name="PACKAGE_NAME" value="HtmlPageTextParser" />
-      <option name="MAIN_CLASS_NAME" value="HtmlPageTextParser.HtmlTextParserTest" />
-      <option name="METHOD_NAME" value="inOneCopyWordsSimbirSoft" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WordsParserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HtmlTextParserTest.incorrectProtocol" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UniqOfWebPage" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HtmlPageTextParser.WordsParser.*" />
+          <option name="PATTERN" value="HtmlPageTextParser.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="HtmlPageTextParser.WordsParser" />
-      <option name="MAIN_CLASS_NAME" value="HtmlPageTextParser.WordsParser.WordsParserTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="UniqOfWebPage" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="UniqOfWebPage" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="PACKAGE_NAME" value="HtmlPageTextParser" />
+      <option name="MAIN_CLASS_NAME" value="HtmlPageTextParser.HtmlTextParserTest" />
+      <option name="METHOD_NAME" value="incorrectProtocol" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -225,20 +175,19 @@
     <list>
       <item itemvalue="Application.Run program" />
       <item itemvalue="JUnit.All Tests" />
-      <item itemvalue="JUnit.Unnamed" />
-      <item itemvalue="JUnit.HtmlTextParserTest.allTextSteam" />
-      <item itemvalue="JUnit.HtmlTextParserTest.wordMatchCountGoogle" />
-      <item itemvalue="JUnit.WordsParserTest" />
-      <item itemvalue="JUnit.HtmlTextParserTest" />
-      <item itemvalue="JUnit.ConnectorTest.connect" />
+      <item itemvalue="JUnit.HtmlTextParserTest.incorrecEnd" />
+      <item itemvalue="JUnit.ConnectorTest.incorrectHost" />
+      <item itemvalue="JUnit.HtmlTextParserTest.incorrectProtocol" />
+      <item itemvalue="JUnit.HtmlTextParserTest.incorrectDomain" />
+      <item itemvalue="JUnit.HtmlTextParserTest.incorrectPath" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HtmlTextParserTest" />
-        <item itemvalue="JUnit.ConnectorTest.connect" />
-        <item itemvalue="JUnit.WordsParserTest" />
-        <item itemvalue="JUnit.HtmlTextParserTest.wordMatchCountGoogle" />
-        <item itemvalue="JUnit.HtmlTextParserTest.allTextSteam" />
+        <item itemvalue="JUnit.HtmlTextParserTest.incorrectPath" />
+        <item itemvalue="JUnit.HtmlTextParserTest.incorrectDomain" />
+        <item itemvalue="JUnit.HtmlTextParserTest.incorrectProtocol" />
+        <item itemvalue="JUnit.ConnectorTest.incorrectHost" />
+        <item itemvalue="JUnit.HtmlTextParserTest.incorrecEnd" />
       </list>
     </recent_temporary>
   </component>
@@ -342,7 +291,21 @@
       <option name="project" value="LOCAL" />
       <updated>1631831190692</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="html address must not be null.">
+      <created>1631831298844</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1631831298844</updated>
+    </task>
+    <task id="LOCAL-00015" summary="adding test case for checking empty of address.">
+      <created>1631831422346</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1631831422346</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -367,6 +330,18 @@
     <MESSAGE value="Connector должен принимать NotNull адресс" />
     <MESSAGE value="HtmlTextParserTest testing null of address" />
     <MESSAGE value="adding prompt string." />
-    <option name="LAST_COMMIT_MESSAGE" value="adding prompt string." />
+    <MESSAGE value="html address must not be null." />
+    <MESSAGE value="adding test case for checking empty of address." />
+    <option name="LAST_COMMIT_MESSAGE" value="adding test case for checking empty of address." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.net.UnknownHostException" package="java.net" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
