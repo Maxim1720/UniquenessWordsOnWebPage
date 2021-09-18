@@ -8,37 +8,34 @@ import java.io.IOException;
 
 public class Connector {
     private Document doc;
-    private final String address;
+    private String address;
 
-    public Connector(@NotNull String address)
+    public Connector()
     {
-        this.address = address;
+
     }
 
-    public Document connect()
-    {
+    public Document connect(@NotNull String address) throws IOException {
+        initDoc(address);
+        return doc;
+    }
+
+    private void initDoc(String address) throws IOException {
         try {
+            this.address = address;
             simpleConnect();
         }
         catch (IOException e) {
-            System.out.println("SIMPLE CONNECTING: FAILED");
             connectWithErrorsIgnoring();
         }
-        return doc;
     }
 
     private void simpleConnect() throws IOException {
         doc = Jsoup.connect(address).get();
-
     }
 
-    private void connectWithErrorsIgnoring()
-    {
-        try {
-            tryConnectWithErrorsIgnoring();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+    private void connectWithErrorsIgnoring() throws IOException {
+        tryConnectWithErrorsIgnoring();
     }
 
     private void tryConnectWithErrorsIgnoring() throws IOException {
