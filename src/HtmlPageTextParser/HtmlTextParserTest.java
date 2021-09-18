@@ -5,17 +5,52 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.function.Executable;
 
+import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.ProtocolException;
+import java.net.UnknownHostException;
+
 class HtmlTextParserTest {
 
+    //incorrect protocol
+    //incorrect domain
+    //incorrect path
+    //incorrect query string
+    //incorrect fragment
+
+
     @Test
-    void emptyAddress()
+    void incorrectProtocol()
     {
-        new HtmlTextParser("");
+        Assertions.assertThrows(IllegalArgumentException.class, ()-> new HtmlTextParser("hhtt://vk.com"));
+    }
+
+    @Test
+    void incorrectDomain()
+    {
+        Assertions.assertThrows(UnknownHostException.class, ()-> new HtmlTextParser("http://vvkk.rr/"));
+    }
+
+    @Test
+    void incorrectPath()
+    {
+        try {
+            new HtmlTextParser("https://docs.microsoft.com/rudwa-ru/doadwatnet/csharpdd/tour-of-csharp/types#base-classes");
+        }
+        catch (IOException ignored)
+        {
+
+        }
+        //https://docs.microsoft.com/ru-ru/dotnet/csharp/tour-of-csharp/types#base-classes
+        ///*Assertions.assertThrows(UnknownHostException.class, ()->*/ new HtmlTextParser(
+        //        "https://docs.microsoft.com/ru-ru/dotnet/csharp/tour-of-cdwasharp/typsses#base-classes")//);
     }
 
 
+
+
     @Test
-    void allTextGoogle() {
+    void allTextGoogle() throws IOException {
         HtmlTextParser page = new HtmlTextParser(Addresses.googleAddress);
         Assertions.assertDoesNotThrow((Executable) page::allText);
         Assertions.assertNotNull(page.allText());
@@ -24,7 +59,7 @@ class HtmlTextParserTest {
     }
 
     @Test
-    void allTextSteam() {
+    void allTextSteam() throws IOException {
         HtmlTextParser page = new HtmlTextParser(Addresses.steamAddress);
         Assertions.assertDoesNotThrow((Executable) page::allText);
         Assertions.assertNotNull(page.allText());
@@ -32,7 +67,7 @@ class HtmlTextParserTest {
     }
 
     @Test
-    void wordsSteam() {
+    void wordsSteam() throws IOException {
         HtmlTextParser page = new HtmlTextParser(Addresses.steamAddress);
         Assertions.assertDoesNotThrow((Executable) page::words);
         Assertions.assertNotNull(page.words());
@@ -40,7 +75,7 @@ class HtmlTextParserTest {
     }
 
     @Test
-    void wordsGfg() {
+    void wordsGfg() throws IOException {
         HtmlTextParser page = new HtmlTextParser(Addresses.gfgAddress);
         Assertions.assertDoesNotThrow((Executable) page::words);
         Assertions.assertNotNull(page.words());
@@ -48,7 +83,7 @@ class HtmlTextParserTest {
     }
 
     @Test
-    void inOneCopyWordsSimbirSoft() {
+    void inOneCopyWordsSimbirSoft() throws IOException {
         HtmlTextParser page = new HtmlTextParser(Addresses.simbirSoftAddress);
         String[] oneCopyWords;
         oneCopyWords = ("""
@@ -835,7 +870,7 @@ class HtmlTextParserTest {
     }
 
     @Test
-    void wordMatchCountGoogle() {
+    void wordMatchCountGoogle() throws IOException {
 
         HtmlTextParser page = new HtmlTextParser(Addresses.googleAddress);
         String word = page.words()[0];
