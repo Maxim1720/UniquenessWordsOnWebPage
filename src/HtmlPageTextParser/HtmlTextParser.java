@@ -2,45 +2,46 @@ package HtmlPageTextParser;
 
 import HtmlPageTextParser.Connector.Connector;
 import HtmlPageTextParser.WordsParser.WordsParser;
-import HtmlPageTextParser.TextSplitter.TextSplitter;
 import org.jetbrains.annotations.NotNull;
 import org.jsoup.nodes.Document;
 
-import java.util.ArrayList;
+import java.io.IOException;
 import java.util.HashMap;
 
 public class HtmlTextParser {
 
-    private String [] words;
-    private ArrayList<String> uniqueWords;
-    private final Document doc;
-    private String text;
+    private String[] words;
+    private String[] oneCopyWords;
+    private final String text;
     private HashMap<String, Integer> countedUniqueWords;
 
-    TextSplitter textSplitter;
 
-    public HtmlTextParser(@NotNull String address)
-    {
-        doc = new Connector(address).connect();
+    public HtmlTextParser(@NotNull String address) throws IOException {
+        text = new Connector().connect(address).text();
     }
+
 
     public String allText()
     {
-        if(text == null)
-        {
-            text = doc.text();
-        }
         return text;
     }
 
     public String[] words()
     {
-        return new WordsParser(allText()).get();
+        if(words == null)
+        {
+            words = new WordsParser(allText()).get();
+        }
+        return words;
     }
 
     public String[] inOneCopyWords()
     {
-        return new WordsParser(allText()).getInOneCopy();
+        if(oneCopyWords == null)
+        {
+            oneCopyWords = new WordsParser(allText()).getInOneCopy();
+        }
+        return oneCopyWords;
     }
 
     private HashMap<String, Integer> countedWords()
