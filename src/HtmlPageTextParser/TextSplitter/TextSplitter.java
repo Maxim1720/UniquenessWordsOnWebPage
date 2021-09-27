@@ -14,12 +14,6 @@ public class TextSplitter {
     public TextSplitter(@NotNull String text)
     {
         corrWordsRep = Pattern.compile(
-                "(\\p{javaUpperCase}+\\p{Ll}*)" +
-                "|(\\p{javaLowerCase}+)" +
-                        "|(\\p{javaLetter}+)"+
-                "|(\\p{javaDigit}+)");
-
-        corrWordsRep = Pattern.compile(
                         "(\\p{javaLetter}+)"+
                         "|(\\p{javaDigit}+)");
 
